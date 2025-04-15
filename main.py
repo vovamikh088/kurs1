@@ -1,10 +1,10 @@
 import logging
-import os
 from datetime import datetime
 from src.views import main_sheet
 from src.reports import spending_by_category
 from src.services import investment_bank, description_filter
 from src.utils import XLSX_file_read, file_df
+import pandas as pd
 
 
 def setup_logging():
