@@ -1,10 +1,13 @@
+# type: ignore
 import logging
-import os
 from datetime import datetime
-from src.views import main_sheet
+
+import pandas as pd
+
 from src.reports import spending_by_category
-from src.services import investment_bank, description_filter
+from src.services import description_filter, investment_bank
 from src.utils import XLSX_file_read, file_df
+from src.views import main_sheet
 
 
 def setup_logging():
