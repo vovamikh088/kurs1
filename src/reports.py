@@ -1,10 +1,12 @@
+# type: ignore
+import datetime
 import logging
 import os
 from datetime import timedelta
 from functools import wraps
 from typing import Optional
+
 import pandas as pd
-import datetime
 
 logger = logging.getLogger("reports")
 logger.setLevel(logging.INFO)

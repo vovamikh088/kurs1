@@ -1,10 +1,10 @@
+# type: ignore
 import datetime
 import json
 import logging
 import os
 from math import isnan
-from src.external_api import get_currency
-from src.external_api import get_stocks
+from src.external_api import get_currency, get_stocks
 from src.utils import XLSX_file_read
 
 logger = logging.getLogger("views")

@@ -1,3 +1,4 @@
+# type: ignore
 from src.external_api import get_currency, get_stocks
 
 

@@ -1,6 +1,9 @@
+# type: ignore
 import os
 import shutil
+
 import pandas as pd
+
 from src.utils import XLSX_file_read, file_df
 
 

@@ -1,8 +1,9 @@
+# type: ignore
 import json
+from unittest.mock import mock_open, patch
 
-import pytest
 import pandas as pd
-from unittest.mock import patch, mock_open
+import pytest
 
 
 @pytest.fixture

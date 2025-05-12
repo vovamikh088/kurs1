@@ -1,3 +1,4 @@
+# type: ignore
 from src.services import investment_bank
 
 

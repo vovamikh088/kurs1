@@ -1,6 +1,9 @@
-import pytest
+# type: ignore
 import json
-from src.views import main_sheet, get_top_transactions, get_cards
+
+import pytest
+
+from src.views import get_cards, get_top_transactions, main_sheet
 
 # Тестовые данные
 TEST_XLSX_DATA = [
